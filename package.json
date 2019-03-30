@@ -1,0 +1,38 @@
+{
+  "name": "my-resume",
+  "version": "1.0.0",
+  "main": "src/index.tsx",
+  "author": "Shawn Hoerner <shoerner+git@shoerner.net>",
+  "license": "none",
+  "private": true,
+  "scripts": {
+    "build": "webpack --env.prod",
+    "build:licenses": "yarn licenses generate-disclaimer > public/licenses.txt",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-brands-svg-icons": "^5.8.1",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "aphrodite": "^2.3.1",
+    "copy-webpack-plugin": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "@types/webpack": "^4.4.26",
+    "prettier": "^1.16.4",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.14.0",
+    "tslint-microsoft-contrib": "^6.1.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.4.1",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
