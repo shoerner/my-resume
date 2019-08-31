@@ -6,13 +6,14 @@ export interface Props {
 	tableRows: React.ReactChild[][];
 	tableHeaders?: string[];
 	tableSpec: string;
+	tableTitle?: string;
 }
 
 export class Table extends React.Component<Props> {
 	public render() {
 		return (
 			<>
-				<h3>Expierence</h3>
+				{this.props.tableTitle && <h3>{this.props.tableTitle}</h3>}
 				<div role="table" className={css(styles.table)}>
 					{this.props.tableHeaders && (
 						<div

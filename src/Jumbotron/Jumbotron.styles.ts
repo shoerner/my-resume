@@ -1,7 +1,9 @@
 import { StyleSheet } from "aphrodite";
 
-export const { maxJumboWidth } = StyleSheet.create({
-	maxJumboWidth: {
+export const { jumbotron } = StyleSheet.create({
+	jumbotron: {
+		alignSelf: "center",
 		maxWidth: "850px",
+		textAlign: "justify",
 	},
 });

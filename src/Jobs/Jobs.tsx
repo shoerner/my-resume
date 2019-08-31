@@ -17,5 +17,7 @@ export const Jobs = () => {
 
 	const columnHeader = ["Company", "Dates", "Title", "Description"];
 
-	return <Table tableSpec="repeat(3, 13%) auto" tableRows={rows} tableHeaders={columnHeader} />;
+	return (
+		<Table tableSpec="repeat(3, 13%) auto" tableRows={rows} tableHeaders={columnHeader} tableTitle="Expierence" />
+	);
 };

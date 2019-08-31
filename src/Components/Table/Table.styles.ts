@@ -15,6 +15,7 @@ export const styles = StyleSheet.create({
 		display: "grid",
 		gridAutoFlow: "column",
 		gridGap: "10px",
+		padding: "10px",
 		rowGap: "10px",
 		"@media (max-width: 700px)": {
 			display: "flex",
