@@ -6,6 +6,7 @@ export const { defaultStyle } = StyleSheet.create({
 		margin: "10px 0",
 		display: "flex",
 		justifyContent: "center",
+		flexDirection: "column",
 		"@media print": {
 			backgroundColor: "transparent",
 			color: "black",

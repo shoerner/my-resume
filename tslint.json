@@ -27,6 +27,7 @@
                 "import-sources-order": "any"
             }
         ],
+        "trailing-comma": false,
         "variable-name": [
             true,
             "check-format",

@@ -1,7 +1,7 @@
 import { TechBadge } from "./Components/TechBadge";
 import React from "react";
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
-import { faAt } from "@fortawesome/free-solid-svg-icons";
+import { faAt as fontAwesomeAtSymbol } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 interface JobDescriptions {
@@ -33,19 +33,19 @@ export const aboutMe: Person = {
 	ContactElements: [
 		{
 			TitleType: "E-Mail",
-			Icon: faAt,
-			Link: "mailto:resume@shoerner.net"
+			Icon: fontAwesomeAtSymbol,
+			Link: "mailto:resume@shoerner.net",
 		},
 		{
 			TitleType: "GitHub",
 			Icon: faGithub,
-			Link: "https://github.com/shoerner"
+			Link: "https://github.com/shoerner",
 		},
 		{
 			TitleType: "LinkedIn",
 			Icon: faLinkedin,
-			Link: "https://linkedin.com/in/shawnhoerner"
-		}
+			Link: "https://linkedin.com/in/shawnhoerner",
+		},
 	],
 	Bio: [
 		"I’m a developer trained as a systems administrator that can’t resist a good challenge. My \
@@ -55,8 +55,8 @@ export const aboutMe: Person = {
 
 		"Outside of work, I'm on the leadership board for Triangle ReactJS - a Meetup group created \
 		to help inspire the community to broaden their horizons when it comes to frontend \
-		development."
-	]
+		development.",
+	],
 };
 
 export const jobEntries: JobDescriptions[] = [
@@ -105,8 +105,8 @@ export const jobEntries: JobDescriptions[] = [
 					<TechBadge title="TypeScript" devIconName="typescript-plain" backgroundColor="#294E80" />
 					<TechBadge title="C#" devIconName="csharp-plain-wordmark" />
 				</>
-			)
-		}
+			),
+		},
 	},
 	{
 		Company: "Citrix Systems",
@@ -126,8 +126,8 @@ export const jobEntries: JobDescriptions[] = [
 					<li>Provided guidance and development support for the Jest/Enzyme test framework</li>
 					<li>Acted as mentor to a number of new React developers, to include several members overseas</li>
 				</ul>
-			)
-		}
+			),
+		},
 	},
 	{
 		Company: "Citrix Systems",
@@ -157,8 +157,8 @@ export const jobEntries: JobDescriptions[] = [
 						PowerShell
 					</li>
 				</ul>
-			)
-		}
+			),
+		},
 	},
 	{
 		Company: "United States Air Force",
@@ -186,7 +186,7 @@ export const jobEntries: JobDescriptions[] = [
 					</li>
 					<li>Acted as content manager for department SharePoint instance</li>
 				</ul>
-			)
-		}
-	}
+			),
+		},
+	},
 ];

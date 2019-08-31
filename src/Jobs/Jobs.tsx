@@ -15,12 +15,7 @@ export const Jobs = () => {
 		</div>,
 	]);
 
-	const columnHeader = [
-		"Company",
-		"Dates",
-		"Title",
-		"Description",
-	];
+	const columnHeader = ["Company", "Dates", "Title", "Description"];
 
-	return <Table tableSpec="repeat(3, 13%) auto" tableRows={rows} tableHeaders={columnHeader}/>;
+	return <Table tableSpec="repeat(3, 13%) auto" tableRows={rows} tableHeaders={columnHeader} />;
 };
