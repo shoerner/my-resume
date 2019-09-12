@@ -8,5 +8,11 @@ export const styles = StyleSheet.create({
 	descriptionContainer: {
 		display: "flex",
 		flexDirection: "column",
+		":first-child": {
+			marginBlockStart: 0,
+		},
+		":last-child": {
+			marginBlockEnd: 0,
+		},
 	},
 });
