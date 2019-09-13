@@ -9,7 +9,7 @@ interface JobDescriptions {
 	Dates: string;
 	Title: string;
 	Description: {
-		Text?: React.ReactChild;
+		Text?: string[] | React.ReactChild;
 		Badges?: React.ReactChild;
 	};
 }
@@ -65,45 +65,33 @@ export const jobEntries: JobDescriptions[] = [
 		Dates: "March 2018 -​ Present",
 		Title: "Senior Software Engineer",
 		Description: {
-			Text: (
-				<>
-					<p>
-						{
-							"This role has most recently had me acting as a technical lead for a team of six developing the \
+			Text: [
+				"This role has most recently had me acting as a technical lead for a team of six developing the \
 				‘glue’ that binds Citrix Cloud to Citrix Content Collaboration. When my team acquired the product, \
 				customer issues were high, unit tests low, and developer desirability to maintain it minimal. In \
 				a period of six months, we reduced customer issues by implementing a more intelligible interface, \
 				increased test coverage by 30%, and turned it into a repository the team was proud to work on. \
 				Throughout this process, I’ve helped level up several developers – ranging not only in skill sets \
 				from intern to seniors who wanted to change tech stacks but also from my direct team to other parts \
-				of the world."
-						}
-					</p>
-					<p>
-						{
-							"From a technical perspective, this role taught me more about Dynamo and ASP.NET (maintenance on the \
+				of the world.",
+				"From a technical perspective, this role taught me more about Dynamo and ASP.NET (maintenance on the \
 				React/TypeScript frontend was also necessary). While technical growth was required, I grew most from \
 				a people perspective by being placed in a position where I was leading the product and making decisions \
 				well before implementation started. Involvement with our design teams, product management teams, and \
 				guiding the product to its future had previously been part of my job, but never to such a level. On \
 				occasion, I’ve also been able to utilize and expand my knowledge by standing in as a scrum master for \
-				my team."
-						}
-					</p>
-					<p>
-						{
-							"Prior to this, my larger team worked on a number of initiatives that typically involved tech stack \
+				my team.",
+				"Prior to this, my larger team worked on a number of initiatives that typically involved tech stack \
 				migrations to React. The most recent of which was migrating the Citrix Workspace experience from the \
-				previous design language into the new “Workspace Vision”"
-						}
-					</p>
-				</>
-			),
+				previous design language into the new “Workspace Vision”",
+			],
 			Badges: (
 				<>
 					<TechBadge title="React" devIconName="react-original" backgroundColor="#61dafb" />
 					<TechBadge title="TypeScript" devIconName="typescript-plain" backgroundColor="#294E80" />
 					<TechBadge title="C#" devIconName="csharp-plain-wordmark" />
+					<TechBadge title="AWS" devIconName="amazonwebservices-original" backgroundColor="#F7A80D" />
+					<TechBadge title="BitBucket" devIconName="bitbucket-plain" backgroundColor="#0049B0" />
 				</>
 			),
 		},
@@ -113,19 +101,22 @@ export const jobEntries: JobDescriptions[] = [
 		Dates: "April 2017 -​ March 2018",
 		Title: "Senior Software Test Engineer",
 		Description: {
-			Text: (
-				<ul>
-					<li>
-						Successfully migrated 30,000+ test cases to a new Test Case Management system after performing
-						evaluation and cost benefit analysis of solutions on the market and how they each fit our needs
-					</li>
-					<li>
-						Performed development duties on ShareFile frontend products utilizing TypeScript React coupled
-						with Redux
-					</li>
-					<li>Provided guidance and development support for the Jest/Enzyme test framework</li>
-					<li>Acted as mentor to a number of new React developers, to include several members overseas</li>
-				</ul>
+			Text: [
+				"Continuing in the capacity of Lead QA for StorageZones, this position also saw me take on the task of \
+				evaluating and adopting a new test case management system. Vendor discovery and selection were performed, \
+				ultimately resulting in migrating 30,000 test cases with no outages for QA or our external testing team.",
+				"This role transitioned shortly thereafter to a development role where I was part of a team of three who \
+				built the ShareFile Custom Workflows feature from the ground up. During this time, I provided content \
+				knowledge to a team unfamiliar with React, TypeScript, and Jest. Throughout this project, I trained several \
+				developers how to use this particular stack – including two recent college graduates with minimal frontend web \
+				development experience.",
+			],
+			Badges: (
+				<>
+					<TechBadge title="React" devIconName="react-original" backgroundColor="#61dafb" />
+					<TechBadge title="TypeScript" devIconName="typescript-plain" backgroundColor="#294E80" />
+					<TechBadge title="BitBucket" devIconName="bitbucket-plain" backgroundColor="#0049B0" />
+				</>
 			),
 		},
 	},
