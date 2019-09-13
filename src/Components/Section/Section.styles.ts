@@ -12,11 +12,11 @@ export const { defaultStyle } = StyleSheet.create({
 			color: "black",
 		},
 		"@media (max-width: 700px)": {
-			width: "100%",
-			minWidth: "90%",
 			boxSizing: "content-box",
 			margin: 0,
+			minWidth: "90%",
 			padding: "20px",
+			width: "100%",
 		}
 	},
 });

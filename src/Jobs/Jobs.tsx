@@ -3,6 +3,7 @@ import { css } from "aphrodite";
 import { jobEntries } from "../resume";
 import { styles } from "./Jobs.styles";
 import { Table } from "../Components/Table";
+import { BodyText } from "../Components/BodyText";
 
 export const Jobs = () => {
 	const rows = jobEntries.map((job, idx) => [
@@ -10,7 +11,11 @@ export const Jobs = () => {
 		job.Dates,
 		job.Title,
 		<div key={idx} className={css(styles.descriptionContainer)}>
-			{job.Description.Text}
+			{Array.isArray(job.Description.Text)
+				? job.Description.Text.map((descriptionText, descriptionIdx) => (
+						<BodyText key={`${idx}.${descriptionIdx}`}>{descriptionText}</BodyText>
+				  ))
+				: job.Description.Text}
 			{job.Description.Badges && <div className={css(styles.badgeContainer)}>{job.Description.Badges}</div>}
 		</div>,
 	]);
