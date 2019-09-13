@@ -11,5 +11,12 @@ export const { defaultStyle } = StyleSheet.create({
 			backgroundColor: "transparent",
 			color: "black",
 		},
+		"@media (max-width: 700px)": {
+			width: "100%",
+			minWidth: "90%",
+			boxSizing: "content-box",
+			margin: 0,
+			padding: "20px",
+		}
 	},
 });
