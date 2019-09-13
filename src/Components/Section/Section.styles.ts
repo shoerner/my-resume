@@ -2,11 +2,12 @@ import { StyleSheet } from "aphrodite";
 
 export const { defaultStyle } = StyleSheet.create({
 	defaultStyle: {
-		padding: "20px 40px",
-		margin: "10px 0",
 		display: "flex",
-		justifyContent: "center",
 		flexDirection: "column",
+		justifyContent: "center",
+		margin: "10px 0",
+		minWidth: "375px",
+		padding: "20px 40px",
 		"@media print": {
 			backgroundColor: "transparent",
 			color: "black",
@@ -14,7 +15,7 @@ export const { defaultStyle } = StyleSheet.create({
 		"@media (max-width: 700px)": {
 			boxSizing: "content-box",
 			margin: 0,
-			minWidth: "90%",
+			minWidth: "375px",
 			padding: "20px",
 			width: "100%",
 		}
