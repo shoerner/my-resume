@@ -34,7 +34,7 @@ export const aboutMe: Person = {
 		{
 			TitleType: "E-Mail",
 			Icon: fontAwesomeAtSymbol,
-			Link: "mailto:resume@shoerner.net",
+			Link: "mailto:resume+2019@shoerner.net",
 		},
 		{
 			TitleType: "GitHub",
@@ -115,7 +115,6 @@ export const jobEntries: JobDescriptions[] = [
 				<>
 					<TechBadge title="React" devIconName="react-original" backgroundColor="#61dafb" />
 					<TechBadge title="TypeScript" devIconName="typescript-plain" backgroundColor="#294E80" />
-					<TechBadge title="BitBucket" devIconName="bitbucket-plain" backgroundColor="#0049B0" />
 				</>
 			),
 		},
@@ -125,29 +124,20 @@ export const jobEntries: JobDescriptions[] = [
 		Dates: "November 2015 -​ April 2017",
 		Title: "Software Test Engineer 2",
 		Description: {
-			Text: (
-				<ul>
-					<li>
-						Acted as Lead QA Engineer for ShareFile StorageZones, managing the test process both internally
-						and with external QA contractors
-					</li>
-					<li>
-						Performed quality assurance testing on a slew of Citrix ShareFile products to include building
-						of automated tests and manual test cases
-					</li>
-					<li>
-						Contributed to a number of automated test suites, to include NUnit, Selenium, Jest, and UnitTest
-					</li>
-					<li>
-						Created code contributions to our web application built upon React and Less (among other
-						technologies)
-					</li>
-					<li>Added functionality and minor UX changes to ShareFile StorageZone Controller codebase</li>
-					<li>
-						Actively assist team members by acting as a knowledgebase, primarily focusing on Fiddler and
-						PowerShell
-					</li>
-				</ul>
+			Text: [
+				"Acting as the Lead QA engineer for ShareFile StorageZones, I was responsible for testing the product, directing our \
+				external testers, and the final quality stamp prior to releasing our product to customers. Creating comprehensive test \
+				suites in this role required me to become intimately familiar with how Fiddler and how to apply PowerShell to create \
+				complete solutions.",
+				"It was while I was in this role that I began contributing minor UI changes to the front-end for the StorageZone \
+				codebase and the related web application pages in the main ShareFile application.",
+			],
+			Badges: (
+				<>
+					<TechBadge title="Windows Server" devIconName="windows8-original" backgroundColor="#00adef" />
+					<TechBadge title="C#" devIconName="csharp-plain-wordmark" />
+					<TechBadge title="BitBucket" devIconName="bitbucket-plain" backgroundColor="#0049B0" />
+				</>
 			),
 		},
 	},
@@ -156,27 +146,23 @@ export const jobEntries: JobDescriptions[] = [
 		Dates: "September 2013 -​ November 2015",
 		Title: "Computer Scientist",
 		Description: {
-			Text: (
-				<ul>
-					<li>
-						Perform testing and evaluation on pre-release Microsoft products for implementation
-						consideration within the Air Force Network (AFNET)
-						<ul>
-							<li>Some details fall under NDA and cannot be mentioned freely online</li>
-						</ul>
-					</li>
-					<li>Test and submit bug/feature requests to Microsoft for remedy</li>
-					<li>Build solutions with C# .NET 4.5 (WinForms) to help accomplish mission goals</li>
-					<li>
-						Provided design and decision support for implementation of Windows 10 on the AFNET for both SCCM
-						2007 and 2012
-					</li>
-					<li>
-						Managed a lab infrastructure running Microsoft Hyper-V to support testing activities including
-						research and discovery into Microsoft VDI
-					</li>
-					<li>Acted as content manager for department SharePoint instance</li>
-				</ul>
+			Text: [
+				"On a team of three, we were responsible for testing pre-release Microsoft products for potential use on the Air \
+				Force Network (AFNET). Test plans were formed for “expected adoption” cases within the network and appropriate \
+				bug/feature requests were created for areas that the product could more closely assist mission needs. My day-to-day \
+				involved testing and acting as a liaison between my team and the Microsoft QA/development team(s).",
+				"The scope of work quickly moved me to a generalist in a number of regards: network requirements placed my team in the \
+				unique position of providing design and decision support for Windows 10 task sequences in SCCM 2007 and 2010. This \
+				naturally fed into a lab manager role managing ten servers running HyperV for general team usage, with the capacity \
+				to deploy to a lab environment of 100+ clients. Towards the end of my time here, I was dedicated to developing \
+				common scripts in PowerShell and ultimately full applications using C# .NET 4.5 (WinForms) for distribution \
+				within the Air Force.",
+			],
+			Badges: (
+				<>
+					<TechBadge title="Windows Server" devIconName="windows8-original" backgroundColor="#00adef" />
+					<TechBadge title="C#" devIconName="csharp-plain-wordmark" />
+				</>
 			),
 		},
 	},
