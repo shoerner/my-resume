@@ -3,3 +3,4 @@ dist/
 node_modules/
 public/licenses.txt
 yarn-error.log
+src/**/*.js

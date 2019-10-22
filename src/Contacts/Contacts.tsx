@@ -1,5 +1,5 @@
 import React from "react";
-import { aboutMe } from "../resume";
+import { aboutMe } from "../Resume";
 import { css } from "aphrodite";
 import { styles } from "./Contacts.styles";
 import { TitledIcon } from "../Components/TitledIcon";
