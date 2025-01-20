@@ -1,1 +1,1 @@
-export { SecondHeader } from "./MakeHeader";
+export { SecondHeader } from './MakeHeader';

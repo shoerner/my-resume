@@ -1,1 +1,1 @@
-export { RightSectionWrapper } from "./RightSectionWrapper";
+export { RightSectionWrapper } from './RightSectionWrapper';
