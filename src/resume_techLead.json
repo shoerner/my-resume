@@ -1,0 +1,160 @@
+{
+    "Person": {
+        "Name": "Shawn Hoerner",
+        "Title": "Principle Software Engineer",
+        "Description": [
+            "I have extensive experience as a cloud software engineer, with over a decade of technical expertise in cloud-based solutions and leadership. My current skillset focuses on front-end/back-end technologies like React and ASP.NET Core, testing tools like Jest and RTL, and infrastructure tools like AWS and Terraform. My career has been marked by mentoring team members into leadership roles, spearheading product development initiatives, modernizing legacy systems, and enhancing developer workflows to foster innovation. I am now seeking advanced engineering leadership opportunities focused on driving impactful technological advancements"
+        ],
+        "ContactElements": [
+            {
+                "Name": "Phone",
+                "Body": "716.650.0267",
+                "Icon": "fa-solid fa-phone",
+                "Target": "tel:+17166500267"
+            },
+            {
+                "Name": "Email",
+                "Body": "resume@shoerner.net",
+                "Icon": "fa-solid fa-at",
+                "Target": "mailto:resume@shoerner.net"
+            },
+            {
+                "Name": "Website",
+                "Body": "https://shoerner.net",
+                "Icon": "fa-solid fa-wifi",
+                "Target": "https://shoerner.net"
+            },
+            {
+                "Name": "LinkedIn",
+                "Body": "/in/shawnhoerner",
+                "Icon": "fa-brands fa-linkedin",
+                "Target": "https://linkedin.com/in/shawnhoerner"
+            }
+        ],
+        "Education": [
+            {
+                "StartYear": "2009",
+                "EndYear": "2013",
+                "Degree": "Bachelor of Science, Applied Networking and Systems Administration",
+                "Name": "Rochester Institute of Technology"
+            }
+        ],
+        "Skills": [
+            {
+                "Name": "React",
+                "Level": 100
+            },
+            {
+                "Name": "TypeScript / JavaScript",
+                "Level": 100
+            },
+            {
+                "Name": "C# .NET 8",
+                "Level": 60
+            },
+            {
+                "Name": "C# .NET Framework 4.x",
+                "Level": 45
+            },
+            {
+                "Name": "Jest / Enzyme / RTL",
+                "Level": 90
+            },
+            {
+                "Name": "Playwright",
+                "Level": 80
+            },
+            {
+                "Name": "ASP.NET Razor / Core",
+                "Level": 60
+            },
+            {
+                "Name": "Docker / Microservices",
+                "Level": 80
+            },
+            {
+                "Name": "Terraform",
+                "Level": 50
+            },
+            {
+                "Name": "AWS",
+                "Level": 50
+            },
+            {
+                "Name": "Azure",
+                "Level": 50
+            },
+            {
+                "Name": "PowerShell",
+                "Level": 40
+            }
+        ]
+    },
+    "Jobs": [
+        {
+            "Company": "Progress ShareFile",
+            "StartDate": "2025-01-06T00:00:00.000Z",
+            "Title": "Principle Software Engineer",
+            "Location": "Raleigh, NC",
+            "Description": [
+                ""
+            ],
+            "Badges": []
+        },
+        {
+            "Company": "Cloud Software Group ShareFile",
+            "StartDate": "2021-10-01T00:00:00.000Z",
+            "EndDate": "2025-01-06T00:00:00.000Z",
+            "Title": "Lead Software Engineer",
+            "Location": "Raleigh, NC",
+            "Description": [
+                "Led the development of the Family Law Solution for our legal segment, collaborating with teams across the company and incorporating industry feedback to ensure accurate and effective requirements",
+                "Spearheaded the development of a feed service, leveraging micro-frontend technology to enhance ShareFile's development agility and enable rapid iteration on new ideas and product lines",
+                "Utilized AWS and Terraform extensively to seamlessly integrate and scale the feed service, resulting in improved performance and enhanced user experience",
+                "Assumed product ownership roles, guiding the web application server towards modernization and laying the foundation for migrating from legacy technology to containerized ASP.NET 6",
+                "Mentored team members, empowering them to take on team lead roles within the organization, fostering their professional growth and contributing to the overall success of the team"
+            ],
+            "Badges": []
+        },
+        {
+            "Company": "Citrix ShareFile",
+            "StartDate": "2018-03-01T00:00:00.000Z",
+            "EndDate": "2021-10-01T00:00:00.000Z",
+            "Title": "Senior Software Engineer",
+            "Location": "Raleigh, NC",
+            "Description": [
+                "Led a team of six developers, providing guidance, mentorship, and support to foster their growth and development",
+                "Acted as a central source of knowledge for developers, product teams, QA, and leadership, ensuring effective communication and collaboration",
+                "Facilitated a smoother on-boarding process for new developers by improving the documentation and providing comprehensive training",
+                "Played a key role in leveling-up several developers, ranging from interns to principal level, in front-end (React/Angular) and back-end (ASP.NET Core) technologies"
+            ],
+            "Badges": []
+        },
+        {
+            "Company": "Citrix ShareFile",
+            "StartDate": "2017-04-01T00:00:00.000Z",
+            "EndDate": "2018-03-01T00:00:00.000Z",
+            "Title": "Senior Software Test Engineer",
+            "Location": "Raleigh, NC",
+            "Description": [
+                "Delivered new product offering, Custom Workflows. Developed and delivered for initial release in two quarters using React / TypeScript with Redux",
+                "Worked to convert an Angular 1.2 application into React—allowing developers to dynamically pick up our project from all teams across ShareFile",
+                "Provided guidance and development support for React, TypeScript, and the Jest/Enzyme test framework to teammates, both local and abroad"
+            ],
+            "Badges": []
+        },
+        {
+            "Company": "Citrix ShareFile",
+            "StartDate": "2017-04-01T00:00:00.000Z",
+            "EndDate": "2018-03-01T00:00:00.000Z",
+            "Title": "Senior Software Test Engineer",
+            "Location": "Raleigh, NC",
+            "Description": [
+                "Acted as Lead QA Engineer for ShareFile StorageZones, managing the test process both internally and with external QA contractors",
+                "Performed quality assurance testing on a slew of Citrix ShareFile products to include building of automated tests and manual test cases"
+            ],
+            "Badges": []
+        }
+    ],
+    "Projects": []
+}
