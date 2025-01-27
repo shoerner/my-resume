@@ -1,14 +1,17 @@
 import styled from '@emotion/styled';
 
 export const StyledJobsContainer = styled.div`
-	break-inside: avoid-page;
 	break-before: avoid;
+	position: relative;
 `;
 
 export const StyledJobRow = styled.div`
 	display: flex;
 	flex-direction: column;
 	padding: 12px 8px 0px 8px;
+	break-after: region;
+	break-inside: avoid;
+	position: relative;
 `;
 
 export const StyledJobHeader = styled.div`
@@ -25,6 +28,7 @@ export const StyledJobDescription = styled.div`
 	width: 96%;
 	padding: 1% 2%;
 	hyphens: auto;
+	break-inside: avoid;
 `;
 
 export const StyledJobTitle = styled.div`
