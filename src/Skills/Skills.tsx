@@ -29,7 +29,7 @@ export const Skills = () => {
 									<rect
 										height={BAR_HEIGHT}
 										width={BAR_WIDTH}
-										fill="#505050"
+										fill="#a1a1a1"
 										rx="4"
 									/>
 									<rect
