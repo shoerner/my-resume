@@ -3,7 +3,7 @@
 		"Name": "Shawn Hoerner",
 		"Title": "Principle Software Engineer",
 		"Description": [
-			"I have extensive experience as a cloud software engineer, with over a decade of technical expertise in cloud-based solutions and leadership. My current skillset focuses on front-end/back-end technologies like React and ASP.NET Core, testing tools like Jest and RTL, and infrastructure tools like AWS and Terraform. My career has been marked by mentoring team members into leadership roles, spearheading product development initiatives, modernizing legacy systems, and enhancing developer workflows to foster innovation. I am now seeking advanced engineering leadership opportunities focused on driving impactful technological advancements"
+			"I have extensive experience as a cloud software engineer, with over a decade of technical expertise in cloud-based solutions and leadership. My current skillset focuses on front-end and back-end technologies like React combined with ASP.NET Core, testing tools like Jest and React Testing Library, and infrastructure tools like AWS and Terraform. My career has been marked by mentoring team members into leadership roles, spearheading product development initiatives, modernizing legacy systems, and enhancing developer workflows to foster innovation. I am now seeking advanced engineering leadership opportunities focused on driving impactful technological advancements"
 		],
 		"ContactElements": [
 			{
@@ -29,6 +29,12 @@
 				"Body": "/in/shawnhoerner",
 				"Icon": "fa-brands fa-linkedin",
 				"Target": "https://linkedin.com/in/shawnhoerner"
+			},
+			{
+				"Name": "GitHub",
+				"Body": "shoerner",
+				"Icon": "fa-brands fa-github",
+				"Target": "https://github.com/shoerner"
 			}
 		],
 		"Education": [
@@ -47,6 +53,10 @@
 			{
 				"Name": "TypeScript / JavaScript",
 				"Level": 100
+			},
+			{
+				"Name": "Team Leadership",
+				"Level": 80
 			},
 			{
 				"Name": "C# .NET 8",
@@ -96,7 +106,10 @@
 			"StartDate": "2025-01-06T00:00:00.000Z",
 			"Title": "Principle Software Engineer",
 			"Location": "Raleigh, NC",
-			"Description": [""],
+			"Description": [
+				"Guided the migration from Enzyme to React Testing Library, facilitating the upgrade of React from a deprecated version to the latest, enhancing application performance and maintainability.",
+				"Developed a strategic vision for transitioning a monolithic web application into a modular architecture by implementing an application shell hosting micro-frontends, promoting scalability and agility."
+			],
 			"Badges": []
 		},
 		{
@@ -150,6 +163,32 @@
 			"Description": [
 				"Acted as Lead QA Engineer for ShareFile StorageZones, managing the test process both internally and with external QA contractors",
 				"Performed quality assurance testing on a slew of Citrix ShareFile products to include building of automated tests and manual test cases"
+			],
+			"Badges": []
+		},
+		{
+			"Company": "Citrix ShareFile",
+			"StartDate": "2015-11-01T00:00:00.000Z",
+			"EndDate": "2017-04-01T00:00:00.000Z",
+			"Title": "Software Test Engineer",
+			"Location": "Raleigh, NC",
+			"Description": [
+				"Led the quality assurance testing process for ShareFile StorageZones, managing both internal and external QA contractors.",
+				"Developed and executed automated tests and manual test cases for a range of Citrix ShareFile products, ensuring comprehensive test coverage and identifying critical issues.",
+				"Collaborated with cross-functional teams to identify and prioritize test requirements, ensuring efficient and effective testing processes."
+			],
+			"Badges": []
+		},
+		{
+			"Company": "United States Air Force",
+			"StartDate": "2013-09-01T00:00:00.000Z",
+			"EndDate": "2015-11-01T00:00:00.000Z",
+			"Title": "Computer Scientist",
+			"Location": "Raleigh, NC",
+			"Description": [
+				"Conducted rigorous testing and evaluation of pre-release Microsoft products for implementation within the Air Force Network, ensuring compatibility and security.",
+				"Developed innovative solutions using C# .NET 4.5 (WinForms) to support mission goals, enhancing operational efficiency and effectiveness.",
+				"Provided technology support and expertise for purchasing decisions, ensuring the acquisition of the most suitable and cost-effective solutions."
 			],
 			"Badges": []
 		}
