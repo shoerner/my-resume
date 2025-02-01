@@ -5,4 +5,5 @@ import macrosPlugin from 'vite-plugin-babel-macros';
 // https://vite.dev/config/
 export default defineConfig({
 	plugins: [react({ jsxImportSource: '@emotion/react' }), macrosPlugin()],
+	assetsInclude: ['static/*']
 });
