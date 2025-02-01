@@ -150,17 +150,7 @@
 			"Description": [
 				"Delivered new product offering, Custom Workflows. Developed and delivered for initial release in two quarters using React / TypeScript with Redux",
 				"Worked to convert an Angular 1.2 application into React—allowing developers to dynamically pick up our project from all teams across ShareFile",
-				"Provided guidance and development support for React, TypeScript, and the Jest/Enzyme test framework to teammates, both local and abroad"
-			],
-			"Badges": []
-		},
-		{
-			"Company": "Citrix ShareFile",
-			"StartDate": "2017-04-01T00:00:00.000Z",
-			"EndDate": "2018-03-01T00:00:00.000Z",
-			"Title": "Senior Software Test Engineer",
-			"Location": "Raleigh, NC",
-			"Description": [
+				"Provided guidance and development support for React, TypeScript, and the Jest/Enzyme test framework to teammates, both local and abroad",
 				"Acted as Lead QA Engineer for ShareFile StorageZones, managing the test process both internally and with external QA contractors",
 				"Performed quality assurance testing on a slew of Citrix ShareFile products to include building of automated tests and manual test cases"
 			],
@@ -184,7 +174,7 @@
 			"StartDate": "2013-09-01T00:00:00.000Z",
 			"EndDate": "2015-11-01T00:00:00.000Z",
 			"Title": "Computer Scientist",
-			"Location": "Raleigh, NC",
+			"Location": "Montgomery, AL",
 			"Description": [
 				"Conducted rigorous testing and evaluation of pre-release Microsoft products for implementation within the Air Force Network, ensuring compatibility and security.",
 				"Developed innovative solutions using C# .NET 4.5 (WinForms) to support mission goals, enhancing operational efficiency and effectiveness.",
