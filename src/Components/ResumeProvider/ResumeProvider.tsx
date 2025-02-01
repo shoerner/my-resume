@@ -69,7 +69,7 @@ interface ResumeContextProps {
 const ResumeContext = React.createContext<ResumeContextProps>({} as any);
 
 const ResumeProvider = ({ children }: Props) => {
-	const [resumeContent, setResumeContent] =
+	const [resumeContent, _setResumeContent] =
 		React.useState<ResumeContextProps>(JSON.parse(tlResume));
 
 	return (
