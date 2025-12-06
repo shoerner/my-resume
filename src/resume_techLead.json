@@ -1,9 +1,9 @@
 {
 	"Person": {
 		"Name": "Shawn Hoerner",
-		"Title": "Principle Software Engineer",
+		"Title": "Staff Software Engineer",
 		"Description": [
-			"I have extensive experience as a cloud software engineer, with over a decade of technical expertise in cloud-based solutions and leadership. My current skillset focuses on front-end and back-end technologies like React combined with ASP.NET Core, testing tools like Jest and React Testing Library, and infrastructure tools like AWS and Terraform. My career has been marked by mentoring team members into leadership roles, spearheading product development initiatives, modernizing legacy systems, and enhancing developer workflows to foster innovation. I am now seeking advanced engineering leadership opportunities focused on driving impactful technological advancements"
+			"I have extensive experience as a cloud software engineer, with over a decade of technical expertise in cloud-based solutions and leadership. My current skillset focuses on full-stack development, including technologies like React combined with ASP.NET Core and Python, testing tools like Jest and React Testing Library, and infrastructure tools like AWS and Terraform. My career has been marked by mentoring team members into leadership roles, spearheading product development initiatives, modernizing legacy systems, and enhancing developer workflows to foster innovation. I am now seeking advanced engineering leadership opportunities focused on driving impactful technological advancements in the healthcare space."
 		],
 		"ContactElements": [
 			{
@@ -72,11 +72,11 @@
 			},
 			{
 				"Name": "Playwright",
-				"Level": 80
+				"Level": 50
 			},
 			{
 				"Name": "ASP.NET Razor / Core",
-				"Level": 60
+				"Level": 50
 			},
 			{
 				"Name": "Docker / Microservices",
@@ -84,26 +84,41 @@
 			},
 			{
 				"Name": "Terraform",
-				"Level": 50
+				"Level": 40
 			},
 			{
 				"Name": "AWS",
-				"Level": 50
+				"Level": 70
 			},
 			{
 				"Name": "Azure",
 				"Level": 50
 			},
 			{
-				"Name": "PowerShell",
-				"Level": 40
+				"Name": "Python",
+				"Level": 55
 			}
 		]
 	},
 	"Jobs": [
 		{
+			"Company": "SpotOn Transact",
+			"StartDate": "2025-04-21T00:00:00.000Z",
+			"Title": "Staff Software Engineer",
+			"Location": "Raleigh, NC (Remote)",
+			"Description": [
+				"As the technical lead of a five-member team, I serve as a micro-frontend platform engineer, empowering teams across the organization to seamlessly integrate their products with our centralized management dashboard. Our technology stack includes a React (TypeScript) frontend and a combination of Python and NestJS (Node) backend services.",
+				"Implemented robust permissions for the product, which established a secure foundation where none previously existed.",
+				"Led the release of a React Native mobile application to both the Android and Apple stores, expanding our platform’s reach.",
+				"Enabled large merchants to efficiently manage their multi-location enterprises by enhancing our platform’s capabilities.",
+				"Alleviated pain points for developers, ensuring that challenging aspects of our codebase become approachable and maintainable, including establishing best practices for long-term codebase sustainability."
+			],
+			"Badges": ""
+		},
+		{
 			"Company": "Progress ShareFile",
 			"StartDate": "2025-01-06T00:00:00.000Z",
+			"EndDate": "2025-04-18T00:00:00.000Z",
 			"Title": "Principle Software Engineer",
 			"Location": "Raleigh, NC",
 			"Description": [
