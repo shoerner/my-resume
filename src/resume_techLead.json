@@ -3,7 +3,7 @@
 		"Name": "Shawn Hoerner",
 		"Title": "Staff Software Engineer",
 		"Description": [
-			"I have extensive experience as a cloud software engineer, with over a decade of technical expertise in cloud-based solutions and leadership. My current skillset focuses on full-stack development, including technologies like React combined with ASP.NET Core and Python, testing tools like Jest and React Testing Library, and infrastructure tools like AWS and Terraform. My career has been marked by mentoring team members into leadership roles, spearheading product development initiatives, modernizing legacy systems, and enhancing developer workflows to foster innovation. I am now seeking advanced engineering leadership opportunities focused on driving impactful technological advancements in the healthcare space."
+			"Staff Software Engineer with over a decade of experience architecting scalable cloud solutions and driving product innovation through cross-functional leadership. Expert in building resilient full-stack platforms using C#, React, and TypeScript, with a deep focus on modernizing legacy systems and optimizing developer velocity. I focus on leveraging AI-assisted workflows to bridge the gap between complex product roadmaps and high-impact technical execution. Committed to advancing the healthcare space through high-leverage engineering and technical mentorship."
 		],
 		"ContactElements": [
 			{
@@ -67,10 +67,6 @@
 				"Level": 45
 			},
 			{
-				"Name": "Jest / Enzyme / RTL",
-				"Level": 90
-			},
-			{
 				"Name": "Playwright",
 				"Level": 50
 			},
@@ -97,6 +93,10 @@
 			{
 				"Name": "Python",
 				"Level": 55
+			},
+			{
+				"Name": "NestJS / Node Express",
+				"Level": 75
 			}
 		]
 	},
@@ -107,11 +107,11 @@
 			"Title": "Staff Software Engineer",
 			"Location": "Raleigh, NC (Remote)",
 			"Description": [
-				"As the technical lead of a five-member team, I serve as a micro-frontend platform engineer, empowering teams across the organization to seamlessly integrate their products with our centralized management dashboard. Our technology stack includes a React (TypeScript) frontend and a combination of Python and NestJS (Node) backend services.",
-				"Implemented robust permissions for the product, which established a secure foundation where none previously existed.",
-				"Led the release of a React Native mobile application to both the Android and Apple stores, expanding our platform’s reach.",
-				"Enabled large merchants to efficiently manage their multi-location enterprises by enhancing our platform’s capabilities.",
-				"Alleviated pain points for developers, ensuring that challenging aspects of our codebase become approachable and maintainable, including establishing best practices for long-term codebase sustainability."
+				"Led technical strategy and execution across multiple engineering teams, turning ambiguous product roadmaps into clear architectural requirements and measurable business value.",
+				"Architected and shipped a modern email subscription platform with a pluggable templating system using Python and React TypeScript, allowing for reusable patterns that significantly reduced developer cycle time for new message types.",
+				"Optimized developer workflows by refactoring complex legacy systems and establishing scalable best practices, directly improving long-term codebase maintainability and developer velocity.",
+				"Championed the adoption of AI-assisted coding and agentic workflows within the engineering organization, actively mentoring team members to transition them into highly efficient AI-native developers.",
+				"Ranked in the top 5% of users globally for Augment Code, leveraging agentic tools to accelerate iteration and product delivery."
 			],
 			"Badges": ""
 		},
